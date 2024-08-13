@@ -10,7 +10,6 @@
 }
 .container {
   border-radius: 10px;
-  border: 2px solid;
   height: 53vh;
   width: 30vw;
   margin: 50px auto;
@@ -22,16 +21,20 @@
     display: flex;
     gap: 10px;
     margin: 1.5px;
-    box-shadow: none;
-
+    
+   
+    
 }
 .container input {
-  width: 73%;
+  width: 78%;
   font-size: 30px;
   border-radius: 10px;
   text-align: center;
   font-weight: bold;
   margin: 1.5px;
+  border: none;
+  color: black;
+  
 }
 button {
   background-color: grey;
@@ -40,14 +43,19 @@ button {
   width: 24.5%;
   height: 20%;
   font-weight: bold;
-  margin: 2px;
-  padding: 10px;
+  margin: 4px;
+  padding: 11px;
+  border: none;
+ 
+  cursor: pointer;
 }
 .maintable {
   display: flex;
   justify-content: center;
   /* align-items: center; */
   flex-wrap: wrap;
+  
+
 }
 .table {
   display: flex;
@@ -59,9 +67,6 @@ button {
 .table > button {
   justify-content: center;
   align-items: center;
-}
-@media screen and (max-width: 600px) {
-    
 }
 
 
