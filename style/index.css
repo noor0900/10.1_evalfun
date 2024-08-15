@@ -11,15 +11,15 @@
 .container {
   border-radius: 10px;
   height: 53vh;
-  width: 30vw;
+  width: 260px;
   margin: 50px auto;
   padding: 20px;
   background-color: cadetblue;
 }
-.container .input{
-    display: flex;
-    gap: 10px;
-    margin: 1.5px;   
+.container .input {
+  display: flex;
+  gap: 10px;
+  margin: 1.5px;
 }
 .container input {
   width: 78%;
@@ -59,6 +59,3 @@ button {
   justify-content: center;
   align-items: center;
 }
-
-
-
